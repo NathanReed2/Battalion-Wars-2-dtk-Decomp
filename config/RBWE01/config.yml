@@ -1,0 +1,14 @@
+# See config.example.yml for documentation.
+object_base: orig/RBWE01
+object: sys/main.dol
+hash: 413848d3a1a428de74076924db0a5e2d5942ce58
+symbols: config/RBWE01/symbols.txt
+splits: config/RBWE01/splits.txt
+# Change this to match the linker verison.
+# See config.example.yml for a list.
+mw_comment_version: 14
+selfile: files\DLL\FinalRelease\BW2.sel
+selfile_hash: ad20be20ec328a0e023b2fbe9491c0b2d5ca8bf3
+detect_objects: true
+detect_strings: true
+
