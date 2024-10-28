@@ -1,14 +1,18 @@
 Sections:
-	.init       type:code align:4
-	extab       type:rodata align:32
-	extabindex  type:rodata align:4
-	.text       type:code align:32
-	.ctors      type:rodata align:8
-	.dtors      type:rodata align:32
-	.rodata     type:rodata align:64
-	.data       type:data align:64
-	.bss        type:bss align:64
-	.sdata      type:data align:16
-	.sbss       type:bss align:16
-	.sdata2     type:rodata align:16
-	.sbss2      type:bss align:32
+    .init       type:code align:4
+    extab       type:rodata align:32
+    extabindex  type:rodata align:4
+    .text       type:code align:32
+        start:0x803294EC end:0x80345CA4
+    .ctors      type:rodata align:8
+        start:0x80338680 end:0x80338684
+    .dtors      type:rodata align:32
+        start:0x80338820 end:0x80338824
+    .rodata     type:rodata align:64
+    .data       type:data align:64
+    .bss        type:bss align:64
+    .sdata      type:data align:16
+        start:0x803F67F0 end:0x803F67F8
+    .sbss       type:bss align:16
+    .sdata2     type:rodata align:16
+    .sbss2      type:bss align:32
